@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>小猪快递查询</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+	<header class="page-header">
+		<div class="logo-photo">
+		<img class="logo1" src="img/logo1.png">
+		<img  class="logo2" src="img/logo2.png">
+		</div>
+
+     <nav class="page-nav">		
+		<a href="./index1.html" target="_blank">首页</a>
+		<a href="#" target="_blank">产品与服务</a>
+		<a href="#" target="_blank">新闻公告</a>
+		<a href="#" target="_blank">联系我们</a>	
+		<a href="#" target="_blank">客户专区</a>
+		<a href="#" target="_blank">登录</a>
+		<a href="./history.html" target="_blank">历史</a>	
+	</nav> 
+	</header>
+
+	<hr>
+	<div class="page-body">
+		<div class="container">
+		<div id="login_frame">
+		<div class="image">
+		<div><img class="image_logo" src="img/pig3.jpeg"></div>
+		<div class ="character">小猪快递查询</div>
+		</div>
+    <form method="post" action="">
+        <p><label class="label_input">请选择快递公司</label>
+        	<select class="" name="company">
+        	<option disabled selected value>请选择</option>
+        	<option value="yunda">韵达</option>
+        	<option  value="shunfeng">顺丰</option>
+        	<option value="jingdong">京东</option>
+        	<option value="zhongtong">中通</option>
+        	<option value="yauntong">圆通</option>
+        </p>
+    		</select>
+        <div>
+        <p><label class="label_input">请输入订单号</label><input type="num" id="number" class="num _field"/></p>
+    	</div>
+        <div id="login_control">
+            <input type="button" id="btn_login1" value="提交" />
+            <input type="reset" id="btn_login2" value="重置" >
+        </div>
+    </form>
+	</div>
+	</div>
+	</div>
+		<hr>
+	<footer class="page-footer">
+		<p>Copyright 2018 扎克斯未来体验技术部出品</p>
+	</footer>
+</body>
+</html>

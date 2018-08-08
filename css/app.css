@@ -1,0 +1,206 @@
+html{
+	height: 100%
+}
+body{
+	min-height: 100%;
+	display:flex;
+	flex-direction: column;
+	font:14px/1.5 "Helvetion Neue",helvetica, Arial, "Microsoft Yahei",sans-serif;
+	color: #000;
+}
+.page-header{
+	padding: 20px 0px;
+	height: 42px;
+	width: 800px;
+	background: #fff;
+
+}
+.logo-photo{
+	width: 400px;
+	height: 50px;
+	top:20px;
+	left:80px;
+	position: absolute;
+}
+
+.page-nav{
+	font-size: 16px;
+	line-height:32px;
+	position: absolute;
+	top:29px;
+	right: 100px;
+}
+.page-body{
+	flex: 1;
+	background-image:url(./../img/login_bg.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	margin: 0 auto; 
+	width: 950px;
+	height: 500px;
+
+}
+.container{
+	margin:  0 auto;
+	max-width: 554px;
+	position: relative;
+}
+.from-section{
+	position: absolute;
+	right: 400px;
+	top: 200px;
+}
+.form-section h1{
+	text-align: center;
+	font-size: 32px ;
+}
+.h1{
+	size: 32px;
+	color: #000;
+}
+.form-section.form-list{
+	padding: 30px;
+}
+#login_frame{
+	width: 500px;
+	height: 300px;
+	padding: 244px;
+	position: absolute;
+	left: -3%;
+	top:66%;
+	margin-left: -200px;
+	margin-top: -109px;
+	background-color: rgba(240 255 255 0.05);
+	border-radius: 10px;
+}
+.image{
+	width: 500px;
+	height: 50px;
+}
+.image_logo{
+	width:50px;
+	height: 50px;
+	right: 543px;
+	top: 243px;
+	position: absolute;
+
+}
+.character{
+	width: 200px;
+	height: 50px;
+	left: 267px;
+	top:262px;
+	position: absolute;
+}
+form p >*{
+	display: inline-block;
+	vertical-align: middle;
+}/*让输入框和lebel对齐居中*/
+.label_input {
+    font-size: 14px;
+    width: 168px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+
+    color: white;
+    background-color: #3CD8FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.num_field {
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+#btn_login1{
+	font-size: 14px;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    float: left;
+}
+#btn_login2{
+	font-size: 14px;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+    position: relative;
+    float: right;
+}
+#login_control {
+    padding: 0 151px;
+    padding-left: 28px
+}
+
+/*详情模块*/
+.detail-section{
+	padding-top: 65px;
+}
+/*详情-副标题*/
+.detail-section .detail-info{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+/*详情-列表*/
+.detail-section .detail-progress-list{
+	list-style-type: none;
+	padding-left: 0; 
+}
+/*详情-列表项*/
+.detail-section .detail-progress-item{
+	margin-bottom: 10px;
+	line-height: 5px;
+}
+/*详情-时间*/
+.detail-section .detail-progress-time{
+	margin-bottom: 28px;  
+}
+/*详情-位置内容*/
+.detail-section .detail-progress-address{
+	color: #666;
+    height: 70px;
+}
+/*历史模块*/
+.history-section{
+	padding: 166px 2px;
+
+}
+/*历史-表格*/
+.history-section table{
+	width: 100%;
+	text-align:left;
+}
+/*历史-表格-表头*/
+.history-section th{
+	padding: 8px;
+	font-size: 16px;
+	font-weight: 600px;
+	color: #fff;
+	background: #555;
+}
+/*历史-表格-单元*/
+.history-section td{
+	padding: 8px;
+	font-size: 14px;
+}
+.page-footer{
+	line-height: 45px;
+	font-size: 12px;
+	text-align:center;
+	color: #999;
+	letter-spacing: .5px;
+}
+
